@@ -1,12 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
+  <!-- Página principal Ultrasonido -->
   <url>
     <loc>https://jhs68344.github.io/ultrasonido/</loc>
-    <lastmod>2026-01-22</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>1.0</priority>
+  </url>
+
+  <!-- Ultrasonido en Soldaduras (Defectología) -->
+  <url>
+    <loc>https://jhs68344.github.io/ultrasonido/ultrasonido-soldaduras.html</loc>
+  </url>
+
+  <!-- Medición de Espesores UT -->
+  <url>
+    <loc>https://jhs68344.github.io/ultrasonido/ultrasonido-espesores.html</loc>
+  </url>
+
+  <!-- Ultrasonido Industrial en Bogotá -->
+  <url>
+    <loc>https://jhs68344.github.io/ultrasonido/ultrasonido-bogota.html</loc>
   </url>
 
 </urlset>
-
