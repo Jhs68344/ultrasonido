@@ -3,147 +3,236 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Servicios de inspección por ultrasonido: mediciones, defectología y Scan B">
-  <title>Ultrasonido Industrial - JHS</title>
+
+  <title>Ultrasonido Industrial (UT) | JHS Services SAS</title>
+  <meta name="description" content="Servicio de inspección por ultrasonido industrial (UT) en Bogotá: defectología en soldaduras y medición de espesores metálicos. Inspector END Nivel II.">
+
   <style>
-    body {
-      font-family: Arial, sans-serif;
-      margin: 0;
-      padding: 0;
-      background-color: #f9f9f9;
-      color: #333;
+    body{
+      margin:0;
+      font-family: Arial, Helvetica, sans-serif;
+      background: radial-gradient(circle at top, #0d3b52, #07121a);
+      color:#e9eef5;
     }
-    header {
-      background-color: #003366;
-      padding: 15px 30px;
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
+
+    header{
+      max-width:1100px;
+      margin:auto;
+      padding:25px 20px;
+      display:flex;
+      justify-content:space-between;
+      align-items:center;
     }
-    header img {
-      height: 60px;
+
+    header .brand{
+      display:flex;
+      align-items:center;
+      gap:12px;
     }
-    header nav a {
-      color: white;
-      margin-left: 20px;
-      text-decoration: none;
-      font-weight: bold;
+
+    header img{
+      height:55px;
+      border-radius:12px;
     }
-    section {
-      max-width: 1000px;
-      margin: auto;
-      padding: 20px;
+
+    header nav a{
+      color:#fff;
+      text-decoration:none;
+      margin-left:18px;
+      font-weight:bold;
+      opacity:0.85;
     }
-    section img {
-      width: 100%;
-      max-width: 600px;
-      display: block;
-      margin: 10px auto;
+
+    header nav a:hover{
+      opacity:1;
     }
-    section p {
-      text-align: justify;
+
+    .container{
+      max-width:1100px;
+      margin:auto;
+      padding:20px;
     }
-    .footer {
-      background-color: #003366;
-      color: white;
-      text-align: center;
-      padding: 10px;
+
+    .hero{
+      display:grid;
+      grid-template-columns:2fr 1fr;
+      gap:25px;
+      margin-top:20px;
     }
-    .contacto-info {
-      background-color: #e0e0e0;
-      padding: 15px;
-      margin-top: 20px;
-      text-align: center;
-      font-weight: bold;
-      border-radius: 8px;
+
+    .card{
+      background: rgba(255,255,255,0.06);
+      border:1px solid rgba(255,255,255,0.10);
+      border-radius:22px;
+      padding:35px;
+      box-shadow:0 15px 40px rgba(0,0,0,0.35);
     }
-    .whatsapp {
-      position: fixed;
-      top: 20px;
-      right: 20px;
-      z-index: 100;
+
+    h1{
+      font-size:52px;
+      margin:0;
+      line-height:1.1;
     }
-    .whatsapp img {
-      width: 60px;
+
+    p{
+      font-size:17px;
+      opacity:0.9;
+      line-height:1.6;
+    }
+
+    .tags{
+      margin:20px 0;
+      display:flex;
+      flex-wrap:wrap;
+      gap:10px;
+    }
+
+    .tag{
+      padding:8px 14px;
+      border-radius:999px;
+      border:1px solid rgba(255,255,255,0.15);
+      background:rgba(0,0,0,0.25);
+      font-size:14px;
+    }
+
+    .btns{
+      margin-top:22px;
+      display:flex;
+      gap:15px;
+      flex-wrap:wrap;
+    }
+
+    .btn{
+      padding:12px 18px;
+      border-radius:14px;
+      font-weight:bold;
+      text-decoration:none;
+      display:inline-block;
+    }
+
+    .btn-primary{
+      background: linear-gradient(90deg,#00d4ff,#4f6dff);
+      color:#001018;
+    }
+
+    .btn-secondary{
+      border:1px solid rgba(255,255,255,0.25);
+      color:#fff;
+    }
+
+    .grid3{
+      display:grid;
+      grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+      gap:20px;
+      margin-top:30px;
+    }
+
+    footer{
+      text-align:center;
+      padding:25px;
+      margin-top:40px;
+      font-size:13px;
+      opacity:0.75;
+    }
+
+    @media(max-width:900px){
+      .hero{
+        grid-template-columns:1fr;
+      }
+      h1{
+        font-size:42px;
+      }
     }
   </style>
 </head>
+
 <body>
-  <header>
-    <div style="display: flex; align-items: center;">
-      <img src="logo-jhs.png" alt="Logo JHS">
-      <h1 style="color:white; margin-left: 20px; font-size: 18px;">Ultrasonido Industrial - Medición de Espesores e Inspección de Soldaduras</h1>
-    </div>
-    <nav>
-      <a href="#espesores">Espesores</a>
-      <a href="#soldaduras">Soldaduras</a>
-      <a href="./ultrasonido-soldaduras.html">Defectología UT</a>
-      <a href="#scanb">Scan B</a>
-      <a href="#contacto">Contacto</a>
-    </nav>
-  </header>
-  <a href="https://jhs68344.github.io/inspeccion-industrial/" 
-   style="display:inline-block;margin:20px;color:#0b3c5d;font-weight:bold;">
-← Volver a inspección industrial
-</a>
 
-  <div style="
-  background-color:#e6eef3;
-  padding:10px 20px;
-  font-family:Arial, Helvetica, sans-serif;
-">
-  <a href="https://jhs68344.github.io/inspeccion-soldaduras/"
-     style="
-       color:#0b3c5d;
-       font-weight:bold;
-       text-decoration:none;
-     ">
-    ← Volver a inspección de soldaduras
+<header>
+  <div class="brand">
+    <img src="logo-jhs.png" alt="JHS Services SAS">
+    <div>
+      <strong>JHS Services SAS</strong><br>
+      <small>Ultrasonido Industrial (UT)</small>
+    </div>
+  </div>
+
+  <nav>
+    <a href="https://jhs68344.github.io/inspeccion-industrial/">Servicios END</a>
+    <a href="#paginas">Páginas UT</a>
+    <a href="#contacto">Contacto</a>
+  </nav>
+</header>
+
+<main class="container">
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="card">
+      <h1>Ultrasonido Industrial (UT)</h1>
+      <p>
+        Servicio especializado de inspección por ultrasonido para detectar discontinuidades internas
+        en soldaduras, tuberías y componentes metálicos. Inspector END Nivel II.
+      </p>
+
+      <div class="tags">
+        <span class="tag">Defectología en soldaduras</span>
+        <span class="tag">Medición de espesores</span>
+        <span class="tag">Bogotá + cobertura nacional</span>
+      </div>
+
+      <div class="btns">
+        <a class="btn btn-primary" href="https://wa.me/573168726521">Cotizar por WhatsApp</a>
+        <a class="btn btn-secondary" href="#paginas">Ver páginas UT</a>
+      </div>
+    </div>
+
+    <!-- CONTACTO -->
+    <div class="card" id="contacto">
+      <h2>Contacto directo</h2>
+      <p><strong>Bogotá – Colombia</strong></p>
+      <p>WhatsApp: +57 316 872 6521</p>
+      <p>Email: jhs.com.co@gmail.com</p>
+    </div>
+  </section>
+
+  <!-- PAGINAS -->
+  <section class="grid3" id="paginas">
+
+    <div class="card">
+      <h3>🔍 UT en Soldaduras</h3>
+      <p>Defectología para detectar falta de fusión, inclusiones, grietas internas.</p>
+      <a class="btn btn-secondary" href="./ultrasonido-soldaduras.html">
+        Abrir página
+      </a>
+    </div>
+
+    <div class="card">
+      <h3>📏 Medición de Espesores</h3>
+      <p>Evaluación de corrosión y determinación de espesor remanente en campo.</p>
+      <a class="btn btn-secondary" href="./ultrasonido-espesores.html">
+        Abrir página
+      </a>
+    </div>
+
+    <div class="card">
+      <h3>📄 Informe Técnico END</h3>
+      <p>Registro fotográfico, reporte QA/QC y recomendaciones de aceptación.</p>
+      <a class="btn btn-secondary" href="https://wa.me/573168726521">
+        Solicitar informe
+      </a>
+    </div>
+
+  </section>
+
+</main>
+
+<footer>
+  © 2026 JHS Services SAS – Ultrasonido Industrial (UT)<br>
+  <a style="color:#8fd3ff;" href="https://jhs68344.github.io/inspeccion-industrial/">
+    Sitio principal: Inspección Industrial END
   </a>
-</div>
+</footer>
 
-  <!-- Botón de WhatsApp Fijo arriba a la derecha -->
-  <div class="whatsapp">
-    <a href="https://wa.me/573168726521" target="_blank">
-      <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp">
-    </a>
-  </div>
-
-  <section id="espesores">
-    <h2 style="color: #003366;">Medición de espesores por ultrasonido</h2>
-    <p>La <strong>medición de espesores por ultrasonido</strong> es una técnica no destructiva que permite determinar el espesor actual o remanente de materiales metálicos, sin necesidad de cortar o dañar la pieza. Con base en esta medición, y considerando las dimensiones del equipo y la presión de trabajo, es posible calcular el <strong>espesor mínimo requerido</strong> para mantener la integridad estructural del componente. Este análisis permite establecer si el equipo es <strong>apto para continuar en servicio</strong>, si requiere <strong>reparación</strong>, o si debe ser <strong>retirado de operación</strong> por motivos de seguridad.</p>
-    <img src="ut_medicion_espesores_1.png" alt="Espesores 1">
-    <p style="text-align:center">Medición de espesores en componente metálico con equipo portátil.</p>
-    <img src="ut_medicion_espesores_2.jpg" alt="Espesores 2">
-    <p style="text-align:center">Evaluación de pérdida de espesor por corrosión.</p>
-    <img src="Ut_medición de espesores_2.jpg" alt="Espesores 3">
-    <p style="text-align:center">Determinación del espesor remanente en superficies metálicas.</p>
-  </section>
-
-  <section id="soldaduras">
-    <h2 style="color: #003366;">Inspección de soldaduras por ultrasonido (Defectología)</h2>
-    <p>La técnica de <strong>ultrasonido para inspección de soldaduras</strong>, también conocida como <strong>ultrasonido por defectología</strong>, se utiliza para detectar y evaluar discontinuidades internas como grietas, porosidades, inclusiones, falta de fusión, entre otros defectos. Esta evaluación es esencial en uniones soldadas de componentes críticos, ya que garantiza la calidad de la unión y la confiabilidad en servicio.</p>
-    <img src="ut_inspeccion_ultrasonido_1.jpg" alt="Inspección 1">
-    <p style="text-align:center">Evaluación interna sin desmontar la pieza.</p>
-    <img src="ut_inspeccion_ultrasonido_3.jpg" alt="Inspección 2">
-    <p style="text-align:center">Identificación de discontinuidades en soldaduras de difícil acceso.</p>
-  </section>
-
-  <section id="scanb">
-    <h2 style="color: #003366;">Scan B por ultrasonido</h2>
-    <p>Ofrecemos además el servicio especializado de <strong>Scan B por ultrasonido</strong>, el cual proporciona una representación gráfica del perfil interno del material inspeccionado. Esta técnica permite una <strong>visualización más detallada</strong> de la estructura interna de piezas metálicas, facilitando la identificación precisa de defectos y el análisis de su geometría, ubicación y severidad. Es ideal para complementar inspecciones más complejas y obtener un <strong>registro visual</strong> del estado interno de los componentes.</p>
-  </section>
-
-  <section id="contacto">
-    <h2 style="color: #003366;">Contacto</h2>
-    <p>Todo el personal que realiza las inspecciones está debidamente <strong>certificado</strong>, cumpliendo con los estándares internacionales de calidad y confiabilidad.</p>
-    <div class="contacto-info">
-      Contacto: +57 316 872 6521 | jhs.com.co@gmail.com
-    </div>
-  </section>
-
-  <div class="footer">
-    <p>&copy; 2026 JHS Inspecciones - Todos los derechos reservados</p>
-  </div>
 </body>
 </html>
